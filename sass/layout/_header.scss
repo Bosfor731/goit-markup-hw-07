@@ -5,35 +5,35 @@
   border-bottom: 1px solid #ececec;
 }
 
-.header-container {
+.header__container {
   @include flex-min;
 }
 
-.header-navigation {
+.header__navigation {
   @include flex-min;
 }
 
-.header-web-logo {
+.header__web-logo {
   font-family: Raleway;
   font-style: normal;
   @include font(700, 26px, 1.2, 0.03em);
   color: var(--accent-color);
 }
 
-.header-Studio-logo {
+.header__Studio-logo {
   margin-right: 93px;
   color: var(--second-btn-color);
 }
 
-.header-list {
+.header__list {
   display: flex;
 }
 
-.header-item:not(:last-child) {
+.header__item:not(:last-child) {
   margin-right: 50px;
 }
 
-.header-link {
+.header__link {
   padding-top: 31px;
   padding-bottom: 31px;
   position: relative;
@@ -54,7 +54,7 @@
   }
 }
 
-.header-link.current {
+.header__link.current {
   &::after {
     content: "";
     position: absolute;
@@ -74,16 +74,16 @@
   color: var(--accent-color);
 }
 
-.header-connect-list {
+.header__connect-list {
   display: flex;
   margin-left: auto;
 }
 
-.header-connect-item {
+.header__connect-item {
   @include flex-min;
 }
 
-.header-mailto {
+.header__mailto {
   @include flex-min;
   @include font(500, 14px, 1.15, 0.02em);
   color: var(--second-header-text-color);
@@ -96,7 +96,7 @@
   }
 }
 
-.header-tel-link {
+.header__tel-link {
   @include flex-min;
   margin-left: 50px;
   @include font(500, 14px, 1.15, 0.02em);
@@ -106,19 +106,19 @@
     color: var(--accent-color);
   }
 }
-.header-tel-.header-link {
+.header__tel-.header__link {
   &:focus {
     color: var(--accent-color);
   }
 }
 
-.header-connect-icon-mailto {
+.header__connect-icon__mailto {
   fill: currentColor;
   align-items: center;
   margin-right: 10px;
 }
 
-.header-connect-icon-tel {
+.header__connect-icon__tel {
   fill: currentColor;
   align-items: center;
   margin-right: 10px;

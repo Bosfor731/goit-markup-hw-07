@@ -13,30 +13,24 @@
   margin: 0 auto;
 }
 
-.hero-container {
-  display: flex;
+.hero__container {
   width: 696px;
-  margin-right: auto;
-  margin-left: auto;
   margin-bottom: 30px;
-  text-align: center;
+  @include flex-text;
 }
 
-.hero-container-btn {
-  display: flex;
+.hero__container-btn {
   width: 200px;
-  margin-right: auto;
-  margin-left: auto;
-  text-align: center;
+  @include flex-text;
 }
 
-.hero-title {
-    @include font(900, 44px, 1.36, 0.06em);
+.hero__title {
+  @include font(900, 44px, 1.36, 0.06em);
   text-transform: uppercase;
   color: var(--main-title-color);
 }
 
-.hero-btn {
+.hero__btn {
 	width: 200px;
 	height: 50px;
 	padding: 0;

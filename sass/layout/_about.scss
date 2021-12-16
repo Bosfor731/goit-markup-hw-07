@@ -3,7 +3,7 @@
   background-color: var(--main-btn-color);
 }
 
-.about-title {
+.about__title {
   margin-bottom: 50px;
   width: 377px;
   text-align: center;
@@ -14,28 +14,28 @@
   color: var(--second-title-color);
 }
 
-.about-container {
+.about__container {
   text-align: center;
 }
 
-.about-list {
+.about__list {
   display: flex;
 }
 
-.about-item {
+.about__item {
   position: relative;
   &:not(:last-child) {
     margin-right: 30px;
   }
 }
 
-.about-item-img {
+.about__item-img {
   display: block;
   max-width: 100%;
   height: auto;
 }
 
-.about-item-text {
+.about__item-text {
   position: absolute;
   bottom: 0;
   padding-top: 27px;
